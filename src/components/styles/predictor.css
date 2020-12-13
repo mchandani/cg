@@ -1,0 +1,107 @@
+/* body {
+    background: url("../images/cisco.png") center no-repeat;
+    background-size: cover;
+    padding: 0px;
+    margin: 0px;
+}
+
+.ht1 {
+    background: linear-gradient(to bottom, #bdc3c7 0%, #33ddff 100%);
+    height: auto;
+    position: relative;
+    right: 20%;
+    top: 20%;
+} */
+
+section{
+    background: #FD7F64;
+}
+.section_header{
+    margin-top: 20px;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 87%;
+    align-items: center;
+    text-align: center;
+    font-feature-settings: 'kern' off;
+    color: #4C4981;
+    margin-bottom: 20px;
+}
+
+.tag-name{
+background: #F2F2F2;
+font-family: 'Alegreya Sans', sans-serif;
+display: table;
+border-radius: 20px;
+text-align: center;
+padding:  20px;
+line-height: 40px;
+ font-weight: bold;
+    font-size: 50px;
+color:  #4C4981;
+}
+
+.air{
+    font-family: 'Amaranth', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 125%;
+    align-items: center;
+    text-indent: 9px;
+    
+    color: #000000; 
+}
+
+.section img{
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 0px;
+}
+
+.predictor button{
+    border:none;
+    outline:none;
+    width: 260px;
+    height: 60px;
+    background:  #6BD5E1;
+    border-radius: 14px;
+    font-family: Amaranth;
+    position: relative;
+    left:22%;
+    box-shadow: 0px 6px 2px rgba(0, 0, 0, 0.5);
+    font-size: 25px;
+    font-weight: normal;
+    line-height: 94%;
+    align-items: center;
+    text-align: center;
+    color: #090808;
+    margin-bottom: 15px;
+}
+.predictor button:hover{
+    box-shadow: 0 4px 2px rgba(0, 0, 0, 0.5);
+    top:2px;
+}
+.predictor button:active{
+    outline:none;
+    box-shadow: none;
+    top:6px;
+}
+.predictor button:focus{
+    outline: none;
+}
+.form-group input{
+    font-family: 'Amaranth', sans-serif;
+    font-weight: 100px;
+    font-size: 18px;
+    line-height: 125%;
+    align-items: center;
+}
+.img{
+position:relative;
+left:65%;
+}

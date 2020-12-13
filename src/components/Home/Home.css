@@ -1,0 +1,270 @@
+.btnxl{
+    background: transparent;
+    font-size: 17px;
+    font-weight: 600;
+    border: none;
+    padding: 8px;
+    height: fit-content;
+    outline: none !important;
+}
+.rowxl{
+    padding: 8px 160px !important
+}
+.orangebtnxl{
+    padding: 19px !important;
+    border-radius: 30px !important
+}
+.cardxs{
+    box-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2), 0px 1px 1px 0px rgba(0,0,0,0.14), 0px 1px 3px 0px rgba(0,0,0,0.12) !important;
+    width: 10 0% !important;
+    padding: 15px;
+    height: 250px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.surveybtn{
+    width: 100%;
+    background-color: #FF4E00;
+    border: 1px solid;
+    color: white;
+    padding: 10px
+    
+}
+
+.btnxl:hover{
+    color: gray;
+}
+.imgxs{
+    width: 50px;
+}
+.conImg{
+    width: 100%;
+    height: 100%;
+}
+.sidebar{
+    display: flex;
+    justify-content: space-evenly;
+}
+.orangebtn{
+    background-color: #FF4E00;
+    border-radius: 20px;
+    color: white;
+    width: 100px;
+    border:none;
+    outline: none !important;
+}
+.row{
+    padding: 8px ;
+    margin: 0px !important;
+}
+.hidebtn{
+    display: none;
+}
+
+.container{
+    height: 100vh
+}
+.container-fluid{
+    padding:0px !important;
+}
+.divxl{
+    text-align: left;
+    margin-left: 55px;
+    margin-top: 100px;
+    position: absolute;
+    color: white;
+    width: 90% ;
+}
+.fontxl{
+    font-size: 45px;
+    font-weight: 500;
+}
+.searchxl{
+    border-radius: 50px;
+    width: 450px;
+    padding: 10px 20px 10px 30px;
+    outline: none;
+    border: 0px;
+    margin-top: 100px
+}
+.logoxl{
+    width: 45px;
+    margin-left: 55px;
+}
+.greyBack{
+    background-color: #f9f9f9 !important;
+    padding: 50px 160px !important;
+    width: 100%;
+    
+}
+.whiteBack{
+    padding: 50px 160px !important;
+    width: 100%;
+}
+.iconxl{
+    margin-left: -41px;
+    color: black;
+}
+.searchbar-pos{
+    
+    text-align: center;
+}
+.colxl{
+    display: flex;
+    justify-content: space-evenly;
+}
+.barsIcon{
+    display: none !important;
+}
+.cghead{
+    font-family: open sans, sans-serif;
+    text-transform: uppercase;
+    margin-left: 5px;
+    letter-spacing: .1rem;
+}
+.col-6-xl{
+    padding: 60px 40px !important;
+}
+.contPara{
+    margin-top: 50px;
+}
+.infoxl{
+    background: transparent linear-gradient(180deg, #FBAB7E 0%, #F7CE68 100%) 0% 0% no-repeat padding-box;
+    opacity: 1;
+    display:flex;
+    justify-content:space-evenly;
+    align-items: center;
+    color:white;
+    padding:45px;
+    height: 260px;
+}
+.button{
+    outline: none !important;
+}
+.infoDivxl{
+    width:33%;
+    text-align:center;
+    font-size:20px;
+}
+.MuiTypography-body1{
+        font-size: auto !important;
+    }
+@media (max-width:770px){
+    .container-fluid {
+        width: 56.7vh !important;
+        height: 100vh;
+    }
+    
+    .infoxl{
+        height: auto;
+        flex-direction: column;
+        
+    }
+    .rowxl{
+        padding: 8px !important;
+    }
+    .h4, h4{
+        font-size: 1.2rem !important;
+    }
+    .infoDivxl{
+        width: 100%;
+        padding: 10px;
+    }
+    .col-6-xl{
+        padding: 20px !important;
+    }
+    .conImg{
+        width: 100% !important;
+        height: 275px !important;
+    }
+    .greyBack{
+        padding: 40px 5px !important;
+    }
+    .whiteBack{
+        padding: 20px 5px !important;
+    }
+    .btnxl{
+        font-size:13px !important;
+    }
+    .h3, h3{
+     font-size: 1.1rem !important;   
+    }
+    .col-6{
+        padding: 3px !important;
+    }
+    .contPara{
+        font-size: small;
+        margin-top: 25px;
+    }
+    .sidebar {
+        position: fixed !important;
+        transition-delay:width  1s;
+        box-shadow: 5px 10px 18px #888888;
+        height: 100vh;
+        z-index: 10;
+        justify-content: flex-start;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding:inherit !important;
+        top: 0;
+        right: 0;
+        background-color:white;
+        border:1px solid black;
+      }
+      
+    .divxl{
+        position: absolute;
+        margin-top: 50px;
+        margin-left: 0px;
+        width: 100%;
+    }
+    .barsIcon{
+        display: block !important;
+        text-align: center;
+    }
+
+    .imgxl{
+        
+        height: 93.6% !important;
+        image-rendering: pixelated;
+    }
+    .col{
+        padding: initial !important;
+    }
+    
+    .fontxl{
+        font-size: 30px;
+    }
+    .row{
+        padding: 5px ;
+    }
+    .searchbar-pos{
+        margin-left: 15px;
+        text-align: left;
+        
+    }
+    .searchxl{
+        padding: 10px 5px 10px 10px;
+        width: 91% !important;
+        font-size: small;
+        
+    }
+    .logoxl{
+        width:31px;
+        margin-left: 20px;
+    }
+    .iconxl{
+        margin-left: -24px;
+    }
+    .orangebtnxl{
+        width:161px !important;
+        padding: 13px !important;
+    }
+    .cghead{
+        font-size: x-small;
+    }
+}

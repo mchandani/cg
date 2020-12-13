@@ -1,0 +1,47 @@
+.headingxl{
+    font-size: 30px;
+}
+.smallerFont{
+    font-size: smaller;
+    cursor: default;
+    
+}
+.smallerFont:hover{
+    text-decoration: underline;
+}
+.subsBtn{
+    background-color: white;
+    border:1px solid white;
+    color: #4680cc;
+    width: 70%;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.iconPos{
+    display: flex;
+    justify-content: space-between
+}
+@media (max-width:700px){
+    .headingxl {
+        font-size: 20px;
+    }
+    .col{
+        padding: initial !important; 
+    }
+    .subsBtn{
+        padding: 2px 5px;
+        width: 30%;
+        margin-top: 10px;
+        margin-left:35%;
+    }
+    .mailSpan{
+        font-size: 6px !important;
+    }
+    .smallerFont{
+        font-size: 10px;
+    }
+    .iconPos{
+        display: flex;
+        justify-content: space-evenly
+    }
+}

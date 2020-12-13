@@ -1,0 +1,202 @@
+.btnxl{
+    background: transparent;
+    font-size: 17px;
+    font-weight: 600;
+    border: none;
+    padding: 8px;
+    height: fit-content;
+    outline: none !important;
+}
+.cardxs{
+    box-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2), 0px 1px 1px 0px rgba(0,0,0,0.14), 0px 1px 3px 0px rgba(0,0,0,0.12) !important;
+    width: 90% !important;
+    padding: 15px;
+    height: 200px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.btnxl:hover{
+    color: gray;
+}
+.imgxs{
+    width: 50px;
+}
+.conImg{
+    width: 480px;
+    height: 350px;
+}
+.sidebar{
+    display: flex;
+    justify-content: space-evenly;
+}
+.orangebtn{
+    background-color: orange;
+    border-radius: 20px;
+    color: white;
+    width: 100px;
+    border:none;
+}
+.row{
+    padding: 8px !important;
+    margin: 0px !important;
+}
+.hidebtn{
+    display: none;
+}
+
+.container{
+    height: 100vh
+}
+.container-fluid{
+    padding:0px !important;
+}
+.divxl{
+    text-align: left;
+    margin-left: 55px;
+    margin-top: 100px;
+    position: absolute;
+    color: black;
+    width: 90% ;
+}
+.fontxl{
+    font-size: 45px;
+}
+.searchxl{
+    border-radius: 50px;
+    width: 450px;
+    padding: 10px 20px 10px 30px;
+    outline: none;
+    border: 0px;
+}
+.logoxl{
+    width: 45px;
+    margin-left: 55px;
+}
+.greyBack{
+    background-color: #f9f9f9 !important;
+    padding: 50px 90px !important;
+    width: 100%;
+    
+}
+.whiteBack{
+    padding: 50px 90px !important;
+    width: 100%;
+}
+.iconxl{
+    margin-left: -41px;
+    color: black;
+}
+.searchbar-pos{
+    
+    text-align: center;
+}
+.colxl{
+    display: flex;
+    justify-content: space-evenly;
+}
+.barsIcon{
+    display: none !important;
+}
+.cghead{
+    font-family: open sans, sans-serif;
+    text-transform: uppercase;
+    margin-left: 5px;
+    letter-spacing: .1rem;
+}
+
+.contPara{
+    margin-top: 50px;
+}
+@media (max-width:770px){
+    .container-fluid {
+        width: 56.7vh !important;
+        height: 100vh;
+    }
+    .conImg{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .btnxl{
+        font-size:13px !important;
+    }
+    .h3, h3{
+     font-size: 1.1rem !important;   
+    }
+    .col-6{
+        padding: 3px !important;
+    }
+    .contPara{
+        font-size: small;
+        margin-top: 25px;
+    }
+    .sidebar {
+        position: fixed !important;
+        transition-delay:width  1s;
+        box-shadow: 5px 10px 18px #888888;
+        height: 100vh;
+        z-index: 10;
+        justify-content: flex-start;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding:inherit !important;
+        top: 0;
+        right: 0;
+        background-color:white;
+        border:1px solid black;
+      }
+      
+    .divxl{
+        position: absolute;
+        margin-top: 50px;
+        margin-left: 0px;
+        width: 100%;
+    }
+    .barsIcon{
+        display: block !important;
+        text-align: center;
+    }
+
+    .imgxl{
+        background-size: 100% 100% !important;
+        height: 93.6% !important;
+        image-rendering: pixelated;
+    }
+    .col{
+        padding: initial !important;
+    }
+    
+    .fontxl{
+        font-size: 30px;
+    }
+    .row{
+        padding: 5px !important;
+    }
+    .searchbar-pos{
+        margin-left: 15px;
+        text-align: left;
+        margin-top: 50px;
+    }
+    .searchxl{
+        padding: 7px 5px 7px 15px;
+        width: 91% !important;
+        font-size: small;
+    }
+    .logoxl{
+        width:31px;
+        margin-left: 20px;
+    }
+    .iconxl{
+        margin-left: -24px;
+    }
+    .orangebtnxl{
+        width:161px !important;
+        padding: 7px;
+    }
+    .cghead{
+        font-size: x-small;
+    }
+}

@@ -1,0 +1,19 @@
+.break-width{
+    width:65%
+}
+@media (max-width: 500px){
+    .break-width {
+        width: 100%;
+        padding:"0px 0px 0px 0px";
+    }
+}
+@media (max-width: 768px){
+    .break-width {
+        width: 90%;
+    }
+}
+@media (max-width: 1100px){
+    .break-width {
+        width: 100%;
+    }
+}

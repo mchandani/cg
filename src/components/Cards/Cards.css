@@ -1,0 +1,22 @@
+.cardxl{
+    max-width: 100% !important; 
+    margin-top: 10px !important;
+    height: 240px;
+}
+.MuiTypography-body1{
+    font-size: small !important;
+}
+
+.plan-btn{
+    background-color: rgba(199, 199, 199, 0.336);
+    cursor: pointer;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 5px 5px 9px #999;
+  }
+  
+  .plan-btn:active{
+    background-color: rgba(199, 199, 199, 0.534);;
+    box-shadow: 0px 0px #666;
+    transform: translateY(4px);
+  }

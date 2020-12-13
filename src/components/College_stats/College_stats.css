@@ -1,0 +1,30 @@
+.greyback{
+    border-top: 1px solid black;
+    background-color: #eae8e8;
+}
+.whiteback{
+    border-top: 1px solid black;
+}
+.pad-1{
+    padding: 40px;
+}
+.font-1{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+@media (max-width:770px){
+    .pad-1{
+        padding: 10px !important;
+    }
+    .font-1{
+        font-size: 1.1rem !important;
+        text-align: center
+    }
+    .body{
+        font-size: 0.9rem ;
+    }
+    .col-9{
+        padding-left: 5px !important;
+    }
+    }

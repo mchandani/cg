@@ -1,0 +1,40 @@
+.divxxl{
+     width: 88%;
+      margin: auto
+}
+.search{
+    border: 1px solid #000000;
+    border-radius: 4px;
+    opacity: 1;
+    width: 300px;
+    padding: 6px 10px 6px 20px; 
+    outline: none !important;
+}
+.search:focus {
+    border: 1px solid blue;
+
+}
+.college_name{
+    cursor: pointer;
+    font-weight: 500;
+}
+.dataRow{
+    padding: 13px 8px;
+    align-items: center;
+}
+
+@media (max-width:770px){
+    .divxxl{
+        width: 100%
+    }
+    .blueback{
+        padding: 10px 8px;
+    }
+    .search{
+        padding: 4px 10px;
+        width: 75%;
+    }
+.mt{
+    margin-top: 19px !important;
+}
+    }
